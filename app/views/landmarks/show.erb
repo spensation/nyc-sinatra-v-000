@@ -1,10 +1,11 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Year Completed</th>
   </tr>
   <tr>
     <td><%= @landmark.name %></td>
+    <td><%= @landmark.id %></td>
     <td><%= @landmark.year_completed %></td>
   </tr>
 <table>
+<h4><a href="/landmarks/<%=@landmark.id%>/edit">edit landmark</a></h4>
